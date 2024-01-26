@@ -1,7 +1,7 @@
 {
   "name": "@theethawat/lerna-demo-frontend",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@theethawat/lerna-demo-constant": "^0.0.1",
+    "@theethawat/lerna-demo-constant": "^0.0.2",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",

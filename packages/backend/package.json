@@ -1,6 +1,6 @@
 {
   "name": "@theethawat/lerna-demo-backend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "private": "true",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@theethawat/lerna-demo-constant": "^0.0.1",
+    "@theethawat/lerna-demo-constant": "^0.0.2",
     "express": "^4.18.2",
     "nodemon": "^3.0.3"
   },
