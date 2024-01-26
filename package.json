@@ -1,0 +1,27 @@
+{
+  "name": "lerna-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lerna run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theethawat/lerna-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theethawat/lerna-demo/issues"
+  },
+  "homepage": "https://github.com/theethawat/lerna-demo#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^8.0.2"
+  }
+}
