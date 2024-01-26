@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "@theethawat/lerna-demo-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.0.3",
+    "@theethawat/lerna-demo-constant": "*"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "../constant/",
+      "./"
+    ]
   }
 }
