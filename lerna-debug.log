@@ -1,0 +1,16 @@
+39 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+39 error npm ERR! code E404
+39 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@theethawat%2flerna-demo-constant - Not found
+39 error npm ERR! 404
+39 error npm ERR! 404  '@theethawat/lerna-demo-constant@^0.0.1' is not in this registry.
+39 error npm ERR! 404
+39 error npm ERR! 404 Note that you can also install from a
+39 error npm ERR! 404 tarball, folder, http url, or git url.
+39 error
+39 error npm ERR! A complete log of this run can be found in:
+39 error npm ERR!     C:\Users\theet\AppData\Local\npm-cache\_logs\2024-01-26T15_42_19_921Z-debug-0.log
+39 error     at makeError (D:\Theethawat\lerna-demo\node_modules\execa\lib\error.js:59:11)
+39 error     at handlePromise (D:\Theethawat\lerna-demo\node_modules\execa\index.js:114:26)
+39 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+39 error     at async VersionCommand.updatePackageVersions (D:\Theethawat\lerna-demo\node_modules\lerna\dist\index.js:8458:13)
+39 error     at async Promise.all (index 0)

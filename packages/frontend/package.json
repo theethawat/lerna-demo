@@ -1,7 +1,7 @@
 {
   "name": "@theethawat/lerna-demo-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,6 +14,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@theethawat/lerna-demo-constant": "^0.0.1",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
@@ -21,7 +22,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8",
-    "@theethawat/lerna-demo-constant": "*"
+    "vite": "^5.0.8"
   }
 }
